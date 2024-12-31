@@ -1,0 +1,14 @@
+pkgbase = ditana-config-coredumps
+	pkgdesc = Deactivate coredumps (temporary activation is possible).
+	pkgver = 1.01
+	pkgrel = 1
+	url = https://github.com/acrion/ditana-config-coredumps
+	arch = any
+	license = AGPL-3.0-or-later
+	depends = systemd
+	source = 50-ditana.conf
+	source = 50-ditana-limits.conf
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = ditana-config-coredumps
